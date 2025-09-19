@@ -3,7 +3,7 @@ Módulo para obtener el clima usando la API de OpenWeatherMap.
 """
 import requests
 
-OPENWEATHER_API_KEY = "TU_API_KEY_AQUI"  # Reemplaza por tu API Key
+OPENWEATHER_API_KEY = "fb3f9b705b95cbfcd3e28988beda9dfa"  #API Key
 OPENWEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def obtener_clima_por_ciudad(ciudad):
